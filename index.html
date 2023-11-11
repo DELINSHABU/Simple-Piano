@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/script.js" defer ></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Piano</title>
+</head>
+<body>
+   <div class="maindiv">
+       <div class="sharpnode">
+           
+           <!-- # -->
+           <div id="Csharp" class="Csharp sharp rowone">C#</div>
+           <div id="Dsharp" class="Dsharp sharp rowone">D#</div>
+           <div id="Fsharp" class="Fsharp sharp rowsec">F#</div>
+           <div id="Gsharp" class="Gsharp sharp rowsec">G#</div>
+           <div id="Asharp" class="Asharp sharp rowsec">A#</div>
+       </div>
+       
+       <div class="notsharpnode">
+
+           
+           <!-- !=# -->
+           <div id="C" class="C notsharp">C</div>
+           <div id="D" class="D notsharp">D</div>
+           <div id="E" class="E notsharp">E</div>
+           <div id="F" class="F notsharp">F</div>
+           <div id="G" class="G notsharp">G</div>
+           <div id="A" class="A notsharp">A</div>
+           <div id="B" class="B notsharp">B</div>
+       </div>
+    </div>
+    
+    <audio id="Aaudio" src="/keys/mp3/A.mp3"></audio>
+    <audio id="Asharpaudio" src="/keys/mp3/A#.mp3"></audio>
+
+    <audio id="Caudio" src="/keys/mp3/C.mp3"></audio>
+    <audio id="Csharpaudio" src="/keys/mp3/C#.mp3"></audio>
+    
+    <audio id="Daudio" src="/keys/mp3/D.mp3"></audio>
+    <audio id="Dsharpaudio" src="/keys/mp3/D#-5.mp3"></audio>
+    
+    <audio id="Eaudio" src="/keys/mp3/E.mp3"></audio>
+    
+    <audio id="Faudio" src="/keys/mp3/F.mp3"></audio>
+    <audio id="Fsharpaudio" src="/keys/mp3/F#.mp3"></audio>
+    
+    <audio id="Gaudio" src="/keys/mp3/G.mp3"></audio>
+    <audio id="Gsharpaudio" src="/keys/mp3/Gsharp.mp3"></audio>
+    
+    <audio id="testplay" src="/file_example_MP3_700KB.mp3"></audio>
+    <button onclick="playaudio()" id="test">test</button>
+</body>
+</html>

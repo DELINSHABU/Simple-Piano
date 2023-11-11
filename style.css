@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+*,body{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: antiquewhite;
+
+
+    /* Diplayflex for all  */
+}
+.maindiv, .sharpnode , .notsharpnode{
+    display: flex;
+}
+
+
+    /* Text postion  */
+.notsharp{
+    padding-top: 27vh;
+    text-align: center;
+}
+.sharp{
+    padding-top: 12vh;
+    text-align: center;
+}
+
+    /* colors keys  */
+.notsharp{
+    /* background-color */
+    background-color: white;
+    
+    /* size  */
+    width: 5vh;
+    height: 30vh;
+    
+    /* margin */
+    margin-top: 4vh;
+    margin-left: .1vh;
+    
+    /* border-radius */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sharp{
+    /* background-color */
+    background-color: black;
+    color: white !important;
+    
+    /* size  */
+    width: 3vh;
+    height: 15vh;
+    
+    /* margin */
+    margin-top: 4vh;
+    margin-left: 0vh;
+    
+    /* border-radius */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+  /* overlap for sharp keys */
+.sharpnode{
+    position: absolute;
+}
+
+ /* postion for sharp  */
+.Csharp{
+    margin-left: 3.6vh;
+}
+
+.Dsharp{
+    margin-left: 2.3vh;
+}
+
+.Fsharp{
+    margin-left: 7vh;
+}
+
+.Gsharp{
+    margin-left: 2.1vh;
+}
+
+.Asharp{
+    margin-left: 2.4vh;
+}
+
+ /* adding pointer and disabled text selection  */
+.sharp, .notsharp{
+    cursor: pointer;
+    user-select: none;
+}
+
+ /* sharp hover and active  */
+.sharp:hover{
+    background-color: rgb(29, 29, 29);
+}
+.sharp:active{
+    background-color: rgb(88, 88, 88);
+}
+
+ /* notsharp hover and active  */
+.notsharp:hover{
+    background-color: rgb(236, 236, 236);
+}
+.notsharp:active{
+    background-color: rgb(194, 194, 194);
+}
+
+
+
+
